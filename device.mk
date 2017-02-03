@@ -214,7 +214,7 @@ PRODUCT_PACKAGES += \
 
 # Set landscape mode by default
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.sf.hwrotation=270
+	persist.panel.orientation=270
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
