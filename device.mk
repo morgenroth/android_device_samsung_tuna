@@ -174,7 +174,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.opengles.version=131072 \
-	ro.sf.lcd_density=320 \
+	ro.sf.lcd_density=180 \
 	ro.hwui.disable_scissor_opt=true \
 	debug.hwui.render_dirty_regions=false
 
