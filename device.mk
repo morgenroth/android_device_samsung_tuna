@@ -212,6 +212,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	FDroidPrivilegedExtension
 
+# UnifiedNlp
+PRODUCT_PACKAGES += \
+	NetworkLocation
+
 # Set landscape mode by default
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.panel.orientation=270
